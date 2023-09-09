@@ -1,7 +1,5 @@
 from fastapi import FastAPI
 import uvicorn
-import sys
-sys.path.append('..')
 
 from flight_data import get_flight_data 
 from hotel_data import get_hotel_data
@@ -11,23 +9,23 @@ from get_location import get_locationId
 best_itinerary = {}
 app = FastAPI()
 
-@app.get('/get_itinerary/', status_code=200)
-def preferences(source: str, destination: str, start_date: str, end_date: str, budget: float):
+# @app.get('/get_itinerary/', status_code=200)
+# def preferences(source: str, destination: str, start_date: str, end_date: str, budget: float):
 
-    # Gather information from different APIs 
-    options = gather_information(source, destination, start_date, end_date)
+#     # Gather information from different APIs 
+#     options = gather_information(source, destination, start_date, end_date)
 
-    # Use an algorithm to determine the itinerary option
-    best_itinerary = determine_itinerary(budget, True, *options)
-    additional_itinerary = determine_itinerary(budget + (budget * 0.05), False, *options)
+#     # Use an algorithm to determine the itinerary option
+#     best_itinerary = determine_itinerary(budget, True, *options)
+#     additional_itinerary = determine_itinerary(budget + (budget * 0.05), False, *options)
 
-    # Create itinerary
-    global_itinerary = {
-        'best_itinerary': best_itinerary,
-        'additional_itinerary': additional_itinerary
-    }
+#     # Create itinerary
+#     global_itinerary = {
+#         'best_itinerary': best_itinerary,
+#         'additional_itinerary': additional_itinerary
+#     }
 
-    return global_itinerary
+#     return global_itinerary
 
 # Gather information from different APIs 
 def gather_information(source, destination, start_date, end_date):
@@ -59,3 +57,6 @@ def determine_itinerary(budget, flag, hotel_data, activity_data):
                 'activity': activity_data[i],
             })
     return best_itinerary
+
+if __name__ == "__main__":
+    uvicorn.run("server.api:app", host="0.0.0.0", port=8000, reload=True)

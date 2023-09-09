@@ -1,8 +1,8 @@
 # Travel_Planner_API
 
-![Travel Planner Logo](https://drive.google.com/file/d/18pToyEst0kdIX_OdmUALhXZFAtPr4UdL/view?usp=drivesdk)
+![Travel Planner Logo](https://i.imgur.com/uwH393u.png)
 
-![Travel Planner API Logo](https://drive.google.com/file/d/1yud0vTtfQMCBn6U5zcZ25CJ9YsdivOOn/view?usp=drivesdk)
+![Travel Planner API Logo](https://i.imgur.com/xebAEnb.png)
 
 ## Description
 

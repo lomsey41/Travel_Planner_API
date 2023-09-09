@@ -1,6 +1,8 @@
 # Travel_Planner_API
 
-![Travel Planner Logo](link_to_logo.png)
+![Travel Planner Logo](https://drive.google.com/file/d/18pToyEst0kdIX_OdmUALhXZFAtPr4UdL/view?usp=drivesdk)
+
+![Travel Planner API Logo](https://drive.google.com/file/d/1yud0vTtfQMCBn6U5zcZ25CJ9YsdivOOn/view?usp=drivesdk)
 
 ## Description
 
@@ -8,7 +10,7 @@ The Travel_Planner_API is the backend component of our travel planning applicati
 
 ## Learning Objectives
 
-By working with this project, experience will be gain  in:
+By working with this project, experience will be gain in:
 
 
 - Building a RESTful API using Flask
@@ -34,7 +36,7 @@ By working with this project, experience will be gain  in:
 
 - **Version Control:** Use Git for version control, making collaboration and code management seamless.
 
-- **API Documentation:** Comprehensive documentation is available using Swagger. [View API Documentation](link_to_swagger_docs)
+- **API Documentation:** Comprehensive documentation is available using Swagger. [View API Documentation]( https://swagger.io/docs/)
 
 - **Third-Party Services:** Integrate third-party services for travel recommendations, enriching travel planning experiences.
 
@@ -92,13 +94,15 @@ Third-Party Services
 
 We leverage third-party services to enhance travel planning experiences. These services include:
 
-    Travel Recommendation Service: Provides personalized travel recommendations based on user preferences.
+ Travel Recommendation Service: Provides personalized travel recommendations based on user preferences.
 
 
 
 Contributors
 
 SALOME BASSEY.
+github/lomsey41<Twitter:lomsey41>
+
    
 
 ACKNOWLEDGEMENT:  

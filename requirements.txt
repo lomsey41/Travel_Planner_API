@@ -2,3 +2,9 @@ fastapi
 uvicorn
 python-dotenv
 requests
+python-jose  # Required for token-based authentication
+passlib      # Required for password hashing
+sqlalchemy   # Required for database operations
+pydantic     # Required for data validation and Pydantic models
+asyncpg      # Required for asynchronous PostgreSQL database access with SQLAlchemy
+

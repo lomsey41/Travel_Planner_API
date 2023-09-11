@@ -94,7 +94,7 @@ Third-Party Services
 
 We leverage third-party services to enhance travel planning experiences. These services include:
 
- Travel Recommendation Service: Provides personalized travel recommendations based on user preferences.
+ Travel Recommendation Service: Provides personalized travel recommendations based on user preferences. Google Map API for Mapping and Geolocation  and Skyscanner API for flight data.
 
 
 

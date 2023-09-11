@@ -47,7 +47,7 @@ By working with this project, experience will be gain in:
 - **Languages:** Python
 - **Web Framework:** Flask
 - **Database:** PostgreSQL
-- **API Style:** RESTful
+- **API Style:**FastAPI( RESTful)
 - **Version Control:** Git
 
 ## Installation and Usage
@@ -98,16 +98,18 @@ We leverage third-party services to enhance travel planning experiences. These s
 
 
 
-Contributors
+AUTHOR:
 
 SALOME BASSEY.
-github/lomsey41<Twitter:lomsey41>
 
-   
+Twitter: http://www.twitter.com/lomsey41
+Linkedin: http://www.linkedin.com/in/salome-bassey
+Github:  https://github.com/lomsey41
+
 
 ACKNOWLEDGEMENT:  
 
-EMENIKE NATHANIEL
+EMENIKE NATHANIEL: For technical Support.
 
 
 

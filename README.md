@@ -1,7 +1,5 @@
 # Travel_Planner_API
 
-![Travel Planner Logo](https://i.imgur.com/uwH393u.png)
-
 ![Travel Planner API Logo](https://i.imgur.com/xebAEnb.png)
 
 ## Description
